@@ -1,0 +1,112 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(netflix_background.jpg);
+    color: white;
+    background-size: cover;
+    font-family: 'roboto light', sans-serif
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 450px;
+    height: 550px;
+    border: none;
+    margin: auto;
+    background-color:rgba(0, 0,0, 0.75);
+ 
+}
+
+h2{
+    margin-left: 47px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'roboto 400',sans-serif;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 47px;  
+    margin-right: 47px;
+    font-size: 15px;
+    
+}
+
+
+.input{
+    width: 350px;
+    height: 48px;
+    padding: 10px;
+    background-color: #333333;
+    color: #777677;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+.sign-in{
+    width: 350px;
+    height:48px ;
+    background-color: E50913;
+    text-align: center;
+    font-family: 'roboto',sans-serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sign-in:hover{
+    background-color: rgb(170, 16, 16);
+}
+
+.need-help{
+    text-decoration: none;
+    color: white;
+}
+
+.need-help:hover{
+    text-decoration: underline;
+}
+
+ .nd-part{
+    text-align: justify;
+     margin-left: 57px; 
+    margin-right: 50px;
+    margin-top: 45px;
+   
+}
+ 
+.sign-up a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.sign-up a:hover{
+    text-decoration: underline;
+}
+
+
+
+.last{
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.last a{
+    text-decoration: none;
+    color:0256A5;
+}
+
+.last a:hover{
+    text-decoration: underline;
+}
